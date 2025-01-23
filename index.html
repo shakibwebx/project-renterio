@@ -33,6 +33,9 @@
         }
         .form-bg{
             background: url("assets/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
         }
 
 
@@ -43,6 +46,91 @@
 
 <body class="font-manrope">
     <header>
+
+        <!-- Navbar Area -->
+
+        <div>
+            <div class="navbar bg-slate-50">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a class="font-semibold">Home</a></li>
+                    <li>
+                        <a>Services</a></li>
+                    </li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"><div class="flex items-center justify-center content-center">
+
+                    <div class="bg-[#ABEF5F] p-1 rounded-full mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-3">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg>
+                          
+                    </div>
+
+
+                <div>
+                    <h2 class="text-center lg:text-3xl font-bold ">Rinterio</h2>
+                </div>
+
+                
+
+
+            </div></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="font-semibold">Home</a></li>
+                    <li>
+                        <a>Services</a></li>
+                    </li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+
+                    <!-- icons -->
+                    <div class="flex items-center lg:gap-8 gap-3 lg:mr-12 mr-2">
+                        <a class="bg-white p-1 rounded-full" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                          </svg>
+                          </a>
+                        <a class="bg-white p-1 rounded-full" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>
+                          </a>
+                    </div>
+                    <button class="btn bg-[#ABEF5F] rounded-xl border-none lg:text-lg">Book Consult <span class="bg-black text-white p-1 rounded-full lg:ml-2""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-3">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg></span></button>
+                </div>
+              </div>
+        </div>
+
+
+
         <!-- hero section -->
         <section>
             <div class="mx-auto my-9 lg:w-9/12 w-5/6 justify-items-center">
@@ -54,7 +142,9 @@
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
     
-                    <button class="btn btn-xs bg-[#ABEF5F80] sm:btn-lg md:btn-lg rounded-3xl">View Details<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <button class="btn  bg-[#ABEF5F80] sm:btn-lg md:btn-lg rounded-3xl lg"text-lg">View Details<span class="bg-green-400 text-white p-1 rounded-full ml-2""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg></span>
                     </button>
                 </div>
             </div>
@@ -116,30 +206,27 @@
 
                     <div>
                         <!-- cards one -->
-                        <div class="md:flex gap-4">
-                            <div class="card bg-[#E7C1D3] w-72 shadow-xl">
-                                <div class="card-body">
+                        <div class="md:flex items-center justify-center content-center gap-4 ">
+                            
+
+                             
+                            <div class="card bg-[#E7C1D3] w-72 h-56 shadow-xl my-6">
+                                <div class="card-body ">
                                     <img class="w-12" src="assets/concept.png" alt="">
                                   <h2 class="card-title">Concept</h2>
                                   <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                                  <div class="card-actions justify-end">
-
-                                  </div>
+                                  
                                 </div>
                               </div>
-
-                              <!-- card 2 -->
-                            <div class="card bg-[#EFDA6E] w-72 shadow-xl">
+                            <div class="card bg-[#EFDA6E] w-72 h-56 shadow-xl my-6">
                                 <div class="card-body">
                                     <img class="w-12" src="assets/flow-chart.png" alt="">
                                   <h2 class="card-title">Design Process</h2>
                                   <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                                  <div class="card-actions justify-end">
-
-                                  </div>
+                                  
                                 </div>
                               </div>
-                            <div class="card bg-[#A4DAC3] w-72 shadow-xl">
+                            <div class="card bg-[#A4DAC3] w-72 h-56 shadow-xl my-6">
                                 <div class="card-body">
                                     <img class="w-12" src="assets/vision.png" alt="">
                                   <h2 class="card-title">Supervision</h2>
@@ -149,7 +236,7 @@
                                   </div>
                                 </div>
                               </div>
-                            <div class="card bg-[#77AAEA] w-72 shadow-xl">
+                            <div class="card bg-[#77AAEA] w-72 h-56 shadow-xl my-6">
                                 <div class="card-body">
                                     <img class="w-12" src="assets/budget-planning.png" alt="">
                                   <h2 class="card-title">Budget Planning</h2>
@@ -177,13 +264,13 @@
 
                     <div class="grid grid-cols-2 grid-rows-5 gap-3">
 
-                        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full w-80 max-w-xs" />
+                        <input type="text" placeholder="First Name*" class="input input-bordered rounded-full lg:w-80 max-w-xs" />
 
-                        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full w-80 max-w-xs" />
+                        <input type="text" placeholder="Last Name*" class="input input-bordered rounded-full lg:w-80 max-w-xs" />
 
-                        <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full w-80 max-w-xs" />
+                        <input type="text" placeholder="Phone Number*" class="input input-bordered rounded-full lg:w-80 max-w-xs" />
 
-                        <input type="text" placeholder="Email*" class="input input-bordered rounded-full w-80 max-w-xs" />
+                        <input type="text" placeholder="Email*" class="input input-bordered rounded-full lg:w-80 max-w-xs" />
 
                         <div class="grid grid-flow-col col-span-2 row-span-5">
                             <textarea class="textarea textarea-bordered rounded-3xl" placeholder="Write your Message here"></textarea>
@@ -192,13 +279,85 @@
 
                         </div>
 
-                        <button class="btn bg-[#ABEF5F] col-span-2 ">Send Mail<i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        <button class="btn bg-[#ABEF5F] col-span-2 lg:text-lg">Send Mail<span class="bg-black text-white p-1 rounded-full ml-2""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg></span></button>
 
                         
 
                     </div>
 
         </section>
+
+        <footer class="bg-slate-800 text-white p-10">
+            <div>
+
+
+                <div class="flex justify-center">
+                    
+                    <div>
+                        <div class="flex items-center justify-center">
+
+                            <div class="bg-green-400 p-1 rounded-full mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                  </svg>
+                                  
+                            </div>
+
+
+                        <div>
+                            <h2 class="text-center text-3xl font-bold my-5">Rinterio</h2>
+                        </div>
+
+                        
+
+
+                    </div>
+                        <p class="text-center my-4 text-slate-100">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                    </div>
+
+
+                    
+
+            </div>
+
+             <!-- banner menu -->
+
+             <div >
+                <ul class="flex justify-center lg:gap-32 gap-2">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="">Contact US</a>
+                    </li>
+                    
+                </ul>
+
+
+               <div class="flex justify-center mt-5">
+                <button class="btn bg-[#ABEF5F] rounded-xl border-none lg:text-lg">Book Consult <span class="bg-black text-white p-1 rounded-full ml-2""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lg:size-6 size-4">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg></span></button>
+               </div>
+
+               
+                
+
+
+            </div>
+            </div>
+        </footer>
 
 
 
