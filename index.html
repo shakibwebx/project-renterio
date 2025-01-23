@@ -8,12 +8,87 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .font-manrope {
+            font-family: "Manrope", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        p {
+            color: #494949;
+        }
+    </style>
 
 </head>
 
-<body>
-    <h1 class="text-xl font-bold p-10">Shakib</h1>
-    <button class="btn btn-primary">ShakiB</button>
+<body class="font-manrope">
+    <header>
+        <!-- hero section -->
+        <section>
+            <div class="mx-auto my-9 lg:w-9/12 w-5/6 justify-items-center">
+                <div><img class="my-6" src="assets/banner.png" alt=""></div>
+                <div class="text-center">
+                    <h1 class="text-6xl font-extrabold ">A barn house of this design has a <br> striking appearance</h1>
+                    <p class="my-6">The barn house captivates with its blend of rustic charm and modern sophistication,
+                        featuring
+                        weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+                    </p>
+    
+                    <button class="btn btn-xs bg-[#ABEF5F80] sm:btn-sm md:btn-md lg:btn-lg rounded-3xl">View Details<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- about us section -->
+        <section class="w-9/12 mx-auto gap-6">
+
+            <div><i class="fa-solid fa-arrow-right"></i>About us</div>
+            <!-- text area -->
+
+            <div class="flex">
+                
+                <div>
+                    <h2>We design thoughtful, liveable spaces</h2>
+                <p>The barn house captivates with its blend of rustic charm and 
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="flex">
+                        <!-- icons -->
+                        <div><img src="assets/commercial.png" alt=""></div>
+                        <!-- Text -->
+                        <div>
+                            <h4>Commercial</h4>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <!-- icons -->
+                        <div><img src="assets/residential.png" alt=""></div>
+                        <!-- Text -->
+                        <div>
+                            <h4>Residential</h4>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+
+                  <!-- image area -->
+            <div><img src="assets/Rectangle.png" alt=""></div>
+            </div>
+
+          
+        </section>
+    </header>
 
 </body>
 
